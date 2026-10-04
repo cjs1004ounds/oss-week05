@@ -21,5 +21,5 @@ if (code in weathercodes){
     console.log(chalk.green(weathercodes[code]));
 }
 else {
-    console.log(chalk.red(weathercodes[code]));
+    console.log(chalk.red(`unknown code: ${code}`));
 }
